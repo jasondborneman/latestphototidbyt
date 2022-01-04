@@ -91,7 +91,6 @@ func readConfig() (string, string, error) {
 	var config Config
 	json.Unmarshal(byteValue, &config)
 	return config.CredsFile, config.AlbumID, nil
-//	return "/etc/tidbytrandomphoto.json", "ABhkwBQRMsVffW1pB9ObuZ9XK8Y4cAeKktFrE2YVlNQDP4NSDdEatR8ihm1MvkcrN_J4s8M-7I5q", nil
 }
 
 func main() {
