@@ -1,4 +1,4 @@
-module github.com/jasondborneman/foogooglego
+module github.com/jasondborneman/latestphototidbyt
 
 go 1.13
 
